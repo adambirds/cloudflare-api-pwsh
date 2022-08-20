@@ -1,6 +1,6 @@
 @{
     RootModule = 'PWSHCloudFlareAPI.psm1'
-    ModuleVersion = '0.0.1'
+    ModuleVersion = '0.0.5'
     # CompatiblePSEditions = @()
     GUID = 'b35827fe-7ce3-4156-a19e-b97fc7338b55'
     Author = 'Adam Birds'
@@ -15,7 +15,8 @@
     # FormatsToProcess = @()
     # NestedModules = @()
     FunctionsToExport = @(
-        ''
+        'Connect-CloudFlareAPI',
+        'Get-CFDNSZone'
     )
     CmdletsToExport = @()
     AliasesToExport = @()
